@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18667AA324BD060200BF349F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667AA224BD060200BF349F /* AppDelegate.swift */; };
+		18667AA524BD060200BF349F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667AA424BD060200BF349F /* SceneDelegate.swift */; };
+		18667AAA24BD060200BF349F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18667AA824BD060200BF349F /* Main.storyboard */; };
+		18667AAD24BD060200BF349F /* faguniReminderApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18667AAB24BD060200BF349F /* faguniReminderApps.xcdatamodeld */; };
+		18667AAF24BD060300BF349F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18667AAE24BD060300BF349F /* Assets.xcassets */; };
+		18667AB224BD060300BF349F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18667AB024BD060300BF349F /* LaunchScreen.storyboard */; };
+		18667ABD24BD060300BF349F /* faguniReminderAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667ABC24BD060300BF349F /* faguniReminderAppsTests.swift */; };
+		18667AC824BD060300BF349F /* faguniReminderAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667AC724BD060300BF349F /* faguniReminderAppsUITests.swift */; };
+		18667AD624BD0B8500BF349F /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667AD524BD0B8500BF349F /* ToDoTableViewController.swift */; };
+		18667AD824BD0C9D00BF349F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667AD724BD0C9D00BF349F /* ToDo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18667AB924BD060300BF349F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18667A9724BD060200BF349F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18667A9E24BD060200BF349F;
+			remoteInfo = faguniReminderApps;
+		};
+		18667AC424BD060300BF349F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18667A9724BD060200BF349F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18667A9E24BD060200BF349F;
+			remoteInfo = faguniReminderApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18667A9F24BD060200BF349F /* faguniReminderApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faguniReminderApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18667AA224BD060200BF349F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18667AA424BD060200BF349F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18667AA924BD060200BF349F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18667AAC24BD060200BF349F /* faguniReminderApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = faguniReminderApps.xcdatamodel; sourceTree = "<group>"; };
+		18667AAE24BD060300BF349F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18667AB124BD060300BF349F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18667AB324BD060300BF349F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18667AB824BD060300BF349F /* faguniReminderAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faguniReminderAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18667ABC24BD060300BF349F /* faguniReminderAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faguniReminderAppsTests.swift; sourceTree = "<group>"; };
+		18667ABE24BD060300BF349F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18667AC324BD060300BF349F /* faguniReminderAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = faguniReminderAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18667AC724BD060300BF349F /* faguniReminderAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faguniReminderAppsUITests.swift; sourceTree = "<group>"; };
+		18667AC924BD060300BF349F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18667AD524BD0B8500BF349F /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		18667AD724BD0C9D00BF349F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18667A9C24BD060200BF349F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667AB524BD060300BF349F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667AC024BD060300BF349F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18667A9624BD060200BF349F = {
+			isa = PBXGroup;
+			children = (
+				18667AA124BD060200BF349F /* faguniReminderApps */,
+				18667ABB24BD060300BF349F /* faguniReminderAppsTests */,
+				18667AC624BD060300BF349F /* faguniReminderAppsUITests */,
+				18667AA024BD060200BF349F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18667AA024BD060200BF349F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18667A9F24BD060200BF349F /* faguniReminderApps.app */,
+				18667AB824BD060300BF349F /* faguniReminderAppsTests.xctest */,
+				18667AC324BD060300BF349F /* faguniReminderAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18667AA124BD060200BF349F /* faguniReminderApps */ = {
+			isa = PBXGroup;
+			children = (
+				18667AA224BD060200BF349F /* AppDelegate.swift */,
+				18667AA424BD060200BF349F /* SceneDelegate.swift */,
+				18667AA824BD060200BF349F /* Main.storyboard */,
+				18667AD524BD0B8500BF349F /* ToDoTableViewController.swift */,
+				18667AD724BD0C9D00BF349F /* ToDo.swift */,
+				18667AAE24BD060300BF349F /* Assets.xcassets */,
+				18667AB024BD060300BF349F /* LaunchScreen.storyboard */,
+				18667AB324BD060300BF349F /* Info.plist */,
+				18667AAB24BD060200BF349F /* faguniReminderApps.xcdatamodeld */,
+			);
+			path = faguniReminderApps;
+			sourceTree = "<group>";
+		};
+		18667ABB24BD060300BF349F /* faguniReminderAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				18667ABC24BD060300BF349F /* faguniReminderAppsTests.swift */,
+				18667ABE24BD060300BF349F /* Info.plist */,
+			);
+			path = faguniReminderAppsTests;
+			sourceTree = "<group>";
+		};
+		18667AC624BD060300BF349F /* faguniReminderAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18667AC724BD060300BF349F /* faguniReminderAppsUITests.swift */,
+				18667AC924BD060300BF349F /* Info.plist */,
+			);
+			path = faguniReminderAppsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18667A9E24BD060200BF349F /* faguniReminderApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18667ACC24BD060300BF349F /* Build configuration list for PBXNativeTarget "faguniReminderApps" */;
+			buildPhases = (
+				18667A9B24BD060200BF349F /* Sources */,
+				18667A9C24BD060200BF349F /* Frameworks */,
+				18667A9D24BD060200BF349F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = faguniReminderApps;
+			productName = faguniReminderApps;
+			productReference = 18667A9F24BD060200BF349F /* faguniReminderApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18667AB724BD060300BF349F /* faguniReminderAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18667ACF24BD060300BF349F /* Build configuration list for PBXNativeTarget "faguniReminderAppsTests" */;
+			buildPhases = (
+				18667AB424BD060300BF349F /* Sources */,
+				18667AB524BD060300BF349F /* Frameworks */,
+				18667AB624BD060300BF349F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18667ABA24BD060300BF349F /* PBXTargetDependency */,
+			);
+			name = faguniReminderAppsTests;
+			productName = faguniReminderAppsTests;
+			productReference = 18667AB824BD060300BF349F /* faguniReminderAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18667AC224BD060300BF349F /* faguniReminderAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18667AD224BD060300BF349F /* Build configuration list for PBXNativeTarget "faguniReminderAppsUITests" */;
+			buildPhases = (
+				18667ABF24BD060300BF349F /* Sources */,
+				18667AC024BD060300BF349F /* Frameworks */,
+				18667AC124BD060300BF349F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18667AC524BD060300BF349F /* PBXTargetDependency */,
+			);
+			name = faguniReminderAppsUITests;
+			productName = faguniReminderAppsUITests;
+			productReference = 18667AC324BD060300BF349F /* faguniReminderAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18667A9724BD060200BF349F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Faguni Gupta";
+				TargetAttributes = {
+					18667A9E24BD060200BF349F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					18667AB724BD060300BF349F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 18667A9E24BD060200BF349F;
+					};
+					18667AC224BD060300BF349F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 18667A9E24BD060200BF349F;
+					};
+				};
+			};
+			buildConfigurationList = 18667A9A24BD060200BF349F /* Build configuration list for PBXProject "faguniReminderApps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18667A9624BD060200BF349F;
+			productRefGroup = 18667AA024BD060200BF349F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18667A9E24BD060200BF349F /* faguniReminderApps */,
+				18667AB724BD060300BF349F /* faguniReminderAppsTests */,
+				18667AC224BD060300BF349F /* faguniReminderAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18667A9D24BD060200BF349F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18667AB224BD060300BF349F /* LaunchScreen.storyboard in Resources */,
+				18667AAF24BD060300BF349F /* Assets.xcassets in Resources */,
+				18667AAA24BD060200BF349F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667AB624BD060300BF349F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667AC124BD060300BF349F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18667A9B24BD060200BF349F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18667AA324BD060200BF349F /* AppDelegate.swift in Sources */,
+				18667AD824BD0C9D00BF349F /* ToDo.swift in Sources */,
+				18667AD624BD0B8500BF349F /* ToDoTableViewController.swift in Sources */,
+				18667AA524BD060200BF349F /* SceneDelegate.swift in Sources */,
+				18667AAD24BD060200BF349F /* faguniReminderApps.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667AB424BD060300BF349F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18667ABD24BD060300BF349F /* faguniReminderAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667ABF24BD060300BF349F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18667AC824BD060300BF349F /* faguniReminderAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18667ABA24BD060300BF349F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18667A9E24BD060200BF349F /* faguniReminderApps */;
+			targetProxy = 18667AB924BD060300BF349F /* PBXContainerItemProxy */;
+		};
+		18667AC524BD060300BF349F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18667A9E24BD060200BF349F /* faguniReminderApps */;
+			targetProxy = 18667AC424BD060300BF349F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18667AA824BD060200BF349F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18667AA924BD060200BF349F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18667AB024BD060300BF349F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18667AB124BD060300BF349F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18667ACA24BD060300BF349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18667ACB24BD060300BF349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18667ACD24BD060300BF349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = faguniReminderApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fagunigupta.faguniReminderApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18667ACE24BD060300BF349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = faguniReminderApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fagunigupta.faguniReminderApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18667AD024BD060300BF349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = faguniReminderAppsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fagunigupta.faguniReminderAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faguniReminderApps.app/faguniReminderApps";
+			};
+			name = Debug;
+		};
+		18667AD124BD060300BF349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = faguniReminderAppsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fagunigupta.faguniReminderAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/faguniReminderApps.app/faguniReminderApps";
+			};
+			name = Release;
+		};
+		18667AD324BD060300BF349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = faguniReminderAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fagunigupta.faguniReminderAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = faguniReminderApps;
+			};
+			name = Debug;
+		};
+		18667AD424BD060300BF349F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = faguniReminderAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fagunigupta.faguniReminderAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = faguniReminderApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18667A9A24BD060200BF349F /* Build configuration list for PBXProject "faguniReminderApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18667ACA24BD060300BF349F /* Debug */,
+				18667ACB24BD060300BF349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18667ACC24BD060300BF349F /* Build configuration list for PBXNativeTarget "faguniReminderApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18667ACD24BD060300BF349F /* Debug */,
+				18667ACE24BD060300BF349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18667ACF24BD060300BF349F /* Build configuration list for PBXNativeTarget "faguniReminderAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18667AD024BD060300BF349F /* Debug */,
+				18667AD124BD060300BF349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18667AD224BD060300BF349F /* Build configuration list for PBXNativeTarget "faguniReminderAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18667AD324BD060300BF349F /* Debug */,
+				18667AD424BD060300BF349F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18667AAB24BD060200BF349F /* faguniReminderApps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18667AAC24BD060200BF349F /* faguniReminderApps.xcdatamodel */,
+			);
+			currentVersion = 18667AAC24BD060200BF349F /* faguniReminderApps.xcdatamodel */;
+			path = faguniReminderApps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18667A9724BD060200BF349F /* Project object */;
+}
